@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>Matthijs van Eede</h1>
+      <nav>
+        <a href="index.html">One</a>
+        <a href="webdesign-tables.html">Two</a>
+        <a href="webdesign-music-example.html">Three</a>
+        <a href="webdesign-video-example.html">Video Example</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Tables</h2>
+        <p>
+        Here's an example of a table in HTML:<br><br>
+        <strong>Note:</strong> unfortunately using the border attribute on the
+        table element generates an error when validating the web page, since
+        it's obsolete. CSS needs to be used instead. I'm leaving it in for now
+        as I don't know CSS, and having the border makes the table way  more
+        clear to read visually.
+        </p>
+        <table border="1" style="width:33%;">
+          <caption>Non-sensical information</caption>
+          <thead>
+            <tr>
+              <th scope="col">Days on Earth</th>
+              <th scope="col">RMSE</th>
+              <th scope="col">Number of voxels</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">10.5</td><td>0.264</td><td>12094</td>
+            </tr>
+            <tr>
+              <td>0.246</td><td>11087</td>
+            </tr>
+            <tr>
+              <td>0.231</td><td>11923</td>
+            </tr>
+            <tr>
+              <td>11.5</td><td>0.342</td><td>45937</td>
+            </tr>
+            <tr>
+              <td rowspan="4">12.5</td><td>0.168</td><td rowspan="4">103865</td>
+            </tr>
+            <tr>
+              <td>0.154</td>
+            </tr>
+            <tr>
+              <td>0.161</td>
+            </tr>
+            <tr>
+              <td>0.197</td>
+            </tr>
+            <tr>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo-wd4e">
+      This page was created by Matthijs van Eede &amp; Colleen van Lent. To
+      learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+    </footer>
+  </body>
+</html>
