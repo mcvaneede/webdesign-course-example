@@ -4,7 +4,7 @@ webdesign course
 */
 
 body {
-  background: #E0E0E0;
+  background: #F0F0F0;
   font-family: Tahoma, Geneva, Helvetica;
 }
 
@@ -22,6 +22,31 @@ h2 {
 nav {
   text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+/* table, th, td {
+  border: 1px solid black;
+}
+*/
+
+th {
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ABABAB;
+}
+
+tr:nth-child(even) {background-color: #CCCCCC;}
+tr:hover {background-color: #BFBFBF;}
 
 img {
   width: 50px;
