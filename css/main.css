@@ -1,0 +1,32 @@
+/*
+This is the style sheet for the
+webdesign course
+*/
+
+body {
+  background: #E0E0E0;
+  font-family: Tahoma, Geneva, Helvetica;
+}
+
+h1 {
+  font-variant: small-caps;
+  text-align: center;
+  background-color: #5B94A6;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+}
+
+footer {
+  background-color: #CCCCCC;
+}
