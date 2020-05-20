@@ -1,0 +1,42 @@
+/*
+List of things to be changed using css:
+
+- header    - change background color
+- h1 and h2 - change font color
+-           - all capital letters
+- h1        - center the text
+- section   - change background color
+- links     - change background color
+-           - change font color
+- images    - remove/hide
+*/
+
+header {
+  background-color: #575757;
+}
+
+h1,  h2{
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #CCCCCC;
+  text-align: center;
+}
+
+h2 {
+  color: #362C9E;
+}
+
+section {
+  background-color: #DDDDDD;
+}
+
+a {
+  color: #3F6E51;
+  background-color: #C5CC66;
+}
+
+img {
+  display: none;
+}

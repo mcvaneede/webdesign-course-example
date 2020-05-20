@@ -1,0 +1,57 @@
+body {
+  background: #F0F0F0;
+  font-family: Tahoma, Geneva, Helvetica;
+  display: table;
+}
+
+h1 {
+  font-variant: small-caps;
+  text-align: center;
+  background-color: #5B94A6;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+}
+
+
+span {
+  height: 50px;
+  width: 75px;
+  background: #00FF00;
+  display: block;
+  /*float: right;*/
+}
+
+div {
+  /*height: 400px;*/
+  width: 30%;
+  background: #00FFFF;
+  /*float:left;
+  display: inline-block;
+  overflow: scroll;*/
+  display: table-cell;
+  /* this needs to go together with a
+  display: table; entry in the body!!*/
+}
+
+p {
+  width: 200px;
+  height: 100px;
+  background: #FF00FF;
+  clear: both;
+}
+
+footer {
+  background-color: #CCCCCC;
+  font-size: 12px;
+}

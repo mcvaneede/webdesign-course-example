@@ -52,6 +52,14 @@ img {
   width: 50px;
 }
 
+details {
+  font-style: italic;
+}
+
+summary {
+  font-style: normal;
+}
+
 footer {
   background-color: #CCCCCC;
   font-size: 12px;
