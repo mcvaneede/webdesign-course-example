@@ -1,0 +1,121 @@
+/*
+This is the style sheet for the
+webdesign course
+*/
+
+body {
+  background: #F0F0F0;
+  font-family: Tahoma, Geneva, Helvetica;
+}
+
+h1 {
+  font-variant: small-caps;
+  text-align: center;
+  background-color: #5B94A6;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+}
+
+
+
+
+div{
+	background-color: #0000CC;
+	color:#ffffff;
+	box-sizing:border-box;
+	width:30%;
+	display: inline-block;
+	height: 200px;
+	margin:5px;
+	border: 20px solid #000000;
+	padding: 0px;
+  margin:50px;
+	margin-top: 10px;
+  margin-bottom: 50px;
+  /*in order to center these
+  divs below one another, you
+  need to use the following:
+  margin: 0 auto;
+  margin-top: 50px;
+
+  And you need to use:
+  display: block;
+  */
+}
+
+#right {
+  background-color: #00CC00;
+  border: solid #AAAAAA;
+  border-width: 10px 30px 50px 70px;
+}
+
+
+.centerbelow{
+	background-color: #F57E42;
+	color:#000000;
+	box-sizing:border-box;
+	width:30%;
+	display: block;
+	height: 200px;
+	margin:5px;
+	border: 20px solid #000000;
+	padding: 10px;
+  /*in order to center these
+  divs below one another, you
+  need to use the following:*/
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+/* table, th, td {
+  border: 1px solid black;
+}
+*/
+
+th {
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ABABAB;
+}
+
+tr:nth-child(even) {background-color: #CCCCCC;}
+tr:hover {background-color: #BFBFBF;}
+
+img {
+  width: 50px;
+}
+
+details {
+  font-style: italic;
+}
+
+summary {
+  font-style: normal;
+}
+
+footer {
+  background-color: #CCCCCC;
+  font-size: 12px;
+}
