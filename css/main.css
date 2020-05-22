@@ -6,12 +6,17 @@ webdesign course
 body {
   background: #F0F0F0;
   font-family: Tahoma, Geneva, Helvetica;
+  margin: 1.5%;
 }
 
 h1 {
   font-variant: small-caps;
   text-align: center;
+}
+
+header {
   background-color: #5B94A6;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -19,8 +24,20 @@ h2 {
   font-weight: bold;
 }
 
+section {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  margin-right: 2%;
+}
+
 nav {
   text-align: center;
+}
+
+.navlink {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 table {
@@ -63,4 +80,5 @@ summary {
 footer {
   background-color: #CCCCCC;
   font-size: 12px;
+  clear: both;
 }
