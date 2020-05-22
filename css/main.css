@@ -45,6 +45,10 @@ table {
   width: 50%;
 }
 
+.tablesection {
+  width: 80%;
+}
+
 /* table, th, td {
   border: 1px solid black;
 }
