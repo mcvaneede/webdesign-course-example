@@ -1,6 +1,21 @@
 /*
 This is the style sheet for the
 webdesign course
+
+Notes:
+- on links <a>:
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover
+
+a:focus -- this is activated by tab-ing
+           through a page.
+
+a:link -- if this is not defined, then the links
+          will take on the appearance of a
+
+Classes: . (can be used multiple times)
+IDs:     # (can be used only once)
+
 */
 
 body {
@@ -39,6 +54,13 @@ nav {
   margin-left: 2px;
   margin-right: 2px;
 }
+
+/*
+.superwide {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+*/
 
 table {
   border-collapse: collapse;
@@ -86,3 +108,98 @@ footer {
   font-size: 12px;
   clear: both;
 }
+
+
+a:hover {
+  background-color: #AAAAAA;
+  color: #EEEEEE;
+}
+
+a:focus {
+  background-color: #AAAAAA;
+  color: #EEEEEE;
+}
+
+/*
+style all of the anchor links
+inside the nav tag
+
+nav a {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+more constrained, the anchor elements
+must be a direct child of nav (no
+intermediate tags)
+
+nav > a {
+background-color: #FF0000;
+color: #FFFFFF;
+}
+
+elements must be at the same level
+and follow each other
+h1 + ol{
+  ...
+}
+
+*/
+
+
+/* for thee list-style-image below there
+are two choices. Use the square if you can
+not find the image, otherwise the icon.gif*/
+
+#hobbylist {
+  /*list-style-type: lower-alpha;*/
+  list-style-image: url('../img/icons8-lightning-bolt-26.png');
+}
+
+/* in order to style the images in the
+footer, you need to specify the order
+as follows:
+
+footer img{
+  border: 10px solid;
+}
+*/
+
+/*
+section.borderclass {
+  border: 10px solid;
+}
+*/
+
+/* apply styling to every
+single element on your page:
+* {
+  border: 5px dashed;
+}
+*/
+
+/*
+Attribute selector, style
+all links that point to
+info.html:
+
+a[href="info.html"]{
+  ...
+}
+
+^ : match the beginning exactly:
+a[href^="http://umich"]
+
+$: match the end exactly:
+img[src$=".png"]
+
+*: wildcard
+a[href*="umich"]
+*/
+
+/*
+a[href*="xample.html"] {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+*/
