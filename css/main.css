@@ -41,11 +41,14 @@ h1 {
   font-weight: bold;
   margin-bottom: 2.5%;
   padding-top: 2px;
+  color: #fff7eb;
 }
 
 header {
-  background-color: #5B94A6;
   padding-bottom: 5px;
+  background: #466368;
+  background: radial-gradient(#648880, #293f50);
+  border-radius: 5px;
 }
 
 h2 {
@@ -80,9 +83,6 @@ section {
   -o-column-gap: 15px;
   column-gap: 15px;
 
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -o-border-radius: 15px;
   border-radius: 15px;
 
   border-style: solid;
@@ -91,6 +91,7 @@ section {
   padding: 1%;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
 }
 
 nav {
@@ -158,6 +159,13 @@ footer {
   padding-bottom: 5px;
 }
 
+a:link {
+  color: #94cdff;
+}
+
+a:visited {
+  color: #bc9cd9;
+}
 
 a:hover {
   background-color: #AAAAAA;
